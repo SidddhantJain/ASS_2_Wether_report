@@ -1,13 +1,9 @@
-
-
 class WeatherReport {
     private int dayOfMonth;
     private double highTemp;
     private double lowTemp;
     private double amountRain;
     private double amountSnow;
-
-
     public WeatherReport() {
         this.dayOfMonth = 0;
         this.highTemp = 0.0;
@@ -15,7 +11,6 @@ class WeatherReport {
         this.amountRain = 0.0;
         this.amountSnow = 0.0;
     }
-
 
     public WeatherReport(int dayOfMonth, double highTemp, double lowTemp, double amountRain, double amountSnow) {
         this.dayOfMonth = dayOfMonth;
@@ -25,15 +20,12 @@ class WeatherReport {
         this.amountSnow = amountSnow;
     }
 
-
     public int getDayOfMonth() {
         return dayOfMonth;
     }
-
     public void setDayOfMonth(int dayOfMonth) {
         this.dayOfMonth = dayOfMonth;
     }
-
     public double getHighTemp() {
         return highTemp;
     }
